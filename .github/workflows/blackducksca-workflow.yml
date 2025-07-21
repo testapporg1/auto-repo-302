@@ -1,9 +1,9 @@
-name: Black Duck Security Scan
+name: BD
 on:
   push:
-    branches: main,master,develop,stage,release
+    branches: main,master,develop,stage
   pull_request:
-    branches: main,master,develop,stage,release
+    branches: main,master,develop,stage
   workflow_dispatch: {}
 jobs:
   blackducksca:
